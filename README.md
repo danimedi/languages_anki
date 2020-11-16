@@ -14,3 +14,4 @@ The data set contains the translation and the links to the images, the images ar
 - Deal with missing images and words with different meanings
 - Link the names of the images in the data set with the images in the media file
 - Check that the Spanish translation is right, and then check the translation to Portuguese (from Spanish and/or English)
+- Compare the original list of words with the data set and fix the problems (e.g. similar words like "speak/say")
