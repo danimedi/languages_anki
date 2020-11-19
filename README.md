@@ -22,4 +22,4 @@ The data set contains the translation and the links to the images, the images ar
 2. Learn some of basic grammar (probably without Anki)
 3. Create sentence cards
 3. Create flashcards for sentences
-4. Improve what you want: more vocabulary, read audio books, write, watch videos or movies, speak, etc.
+4. Improve what you want: more vocabulary, read audio books, write, watch videos or movies, speak, etc. Finally, remember that the goal is to use the language rather than collecting words or rules of the language
