@@ -21,3 +21,5 @@ The data set contains the translation and the links to the images, the images ar
 1. Create flashcards for basic vocabulary (625 words)
 2. Learn some of basic grammar (probably without Anki)
 3. Create sentence cards
+3. Create flashcards for sentences
+4. Improve what you want: more vocabulary, read audio books, write, watch videos or movies, speak, etc.
