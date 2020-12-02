@@ -2,7 +2,6 @@ library(fs) # manipulate files
 library(readxl) # read Excel files
 library(stringr) # manipulate strings
 library(dplyr) # data management
-setwd(path("C:", "Users", "NAPO", "Desktop", "languages_anki")) # set working directory
 
 # read data set of the 625 words
 dat <- read_xlsx(path("625_words", "data_set_flashcards.xlsx"), col_names = FALSE)
