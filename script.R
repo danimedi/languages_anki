@@ -10,8 +10,11 @@ img_names <- list.files(path("625_words", "media"))
 # original list of words
 word_list <- readLines(path("625_words", "original_list.txt"))
 
-# obtain the names of the image with numbers (this means different images for same words)
-img_names %>% str_subset("\\w+\\d")
+# images in media that are not in the data set
+img_data_set <- str_extract_all(dat$...1, "\\w+[.]jpg") %>% unlist() # image names from the data set
+img_names[!img_names %in% img_data_set]
+# images in the data set that are not in media
+img_data_set[!img_data_set %in% img_names]
 
 # obtain the repeated words (same word, different meanings), contrast this with the original list
 freqs <- table(dat$...2)
