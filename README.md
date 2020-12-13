@@ -4,9 +4,13 @@ This is a repo to create decks for languages using Anki.
 
 ## 625 words
 
-Currently, we are trying to create a data base with the translations of the 625 meaningful words most commonly used, and we are starting with the translation to Portuguese.
+Data base with the translations of the 625 meaningful words most commonly used (there actually less than 625 words), it includes images (+ file with the images) and translations to Spanish and Portuguese.
 
-The data set contains the translation and the links to the images, the images are stored in the file for the media and the names of these images must match those in the data set.
+## decks_json
+
+It includes json files (currently 1) with the info for the Anki deck, created using the add-on "CrowdAnki".
+
+> This file does NOT include media, so it should be downloaded from the media file (file with the images)
 
 ## Things to do
 
