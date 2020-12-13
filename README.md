@@ -14,13 +14,13 @@ It includes json files (currently 1) with the info for the Anki deck, created us
 
 ## Things to do
 
-- Link the names of the images in the data set with the images in the media file
 - Check that the Spanish translation is right, and then check the translation to Portuguese (from Spanish and/or English)
-- Compare the original list of words with the data set and fix the problems (e.g. similar words like "speak/say")
 - Deal with numbers like 22, 34, 41, etc.
 - Include images for numbers like third, fourth, etc.
+- Improve the file system (sort the files, e.g. decide if using one or more files for the media)
 - Improve the images
 - Deal with missing images and words with different meanings
+- Think about including audio files (remember that other option is using a TTS engine in the computer)
 
 ## General plan
 
