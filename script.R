@@ -19,3 +19,31 @@ img_data_set[!img_data_set %in% img_names]
 # obtain the repeated words (same word, different meanings), contrast this with the original list
 freqs <- table(dat$...2)
 names(freqs)[freqs > 1]
+
+
+new_dir <- file.path("625_words", "media")
+setwd(new_dir)
+actual_names <- list.files()
+new_names <- gsub("625_words", "vocab", actual_names)
+file.rename(actual_names, new_names)
+
+
+
+# check translations based on multiple languages --------------------------
+
+# there is a blog where there is an explanation about how to use google sheets in R to make
+# translations: https://www.brodrigues.co/blog/2020-12-05-poorman_translate/
+
+library(googlesheet4)
+
+
+
+
+
+
+
+
+
+
+
+
