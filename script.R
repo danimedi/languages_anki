@@ -20,10 +20,16 @@ img_data_set[!img_data_set %in% img_names]
 freqs <- table(dat$X2)
 names(freqs)[freqs > 1]
 
-# change the names of the images in the data set
+
+# change the names of the images (file and data set) ----------------------
+
+media_file <- "625_words/media/"
+actual_names <- list.files(media_file)
+new_names <- actual_names # change here the names (include the extension)
+# file.rename(paste0(media_file, actual_names), paste0(media_file, new_names))
 actual_words <- str_remove_all(dat$X1, "(<img src=\"|\">)")
-new_words <- paste0("vocab-", actual_words)
-dat$X1 <- paste0("<img src=\"", new_words, "\">")
+new_words <- actual_words # change here the names (include the extension)
+# dat$X1 <- paste0("<img src=\"", new_words, "\">")
 # write_excel_csv2(dat, "625_words/data_set_flashcards.csv", col_names = FALSE)
 
 

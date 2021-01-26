@@ -21,6 +21,7 @@ It includes json files (currently 1) with the info for the Anki deck, created us
 - Improve the images
 - Deal with missing images and words with different meanings
 - Think about including audio files (remember that other option is using a TTS engine in the computer)
+- Create / update the data set directly from changes in the decks (maybe using AnkiConnect add-on to generate the data set with code)
 
 ## General plan
 
