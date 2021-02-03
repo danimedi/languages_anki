@@ -2,6 +2,14 @@
 
 This is a repo to create decks for languages using Anki.
 
+## Organization
+
+This repo currently contains 3 folders:
+
+- 'code': scripts
+- 'data_625_words': data from the 625 words
+- 'decks_json': json using the add-on AnkiConnect (NOTE: its content is outdated)
+
 ## 625 words
 
 Data base with the translations of the 625 meaningful words most commonly used (there actually less than 625 words), it includes images (+ file with the images) and translations to Spanish and Portuguese.
@@ -22,6 +30,9 @@ It includes json files (currently 1) with the info for the Anki deck, created us
 - Deal with missing images and words with different meanings
 - Think about including audio files (remember that other option is using a TTS engine in the computer)
 - Create / update the data set directly from changes in the decks (maybe using AnkiConnect add-on to generate the data set with code)
+- Use 'googlesheet4' or other packages/resources to automate translation and check the translation from different languages (e.g. https://www.brodrigues.co/blog/2020-12-05-poorman_translate/)
+- Automate the process of downloading the deck (information from the CSV + media)
+- Think about adding audio files
 
 ## General plan
 
