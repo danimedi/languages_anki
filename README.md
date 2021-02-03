@@ -22,12 +22,11 @@ It includes json files (currently 1) with the info for the Anki deck, created us
 
 ## Things to do
 
-- Check that the Spanish translation is right, and then check the translation to Portuguese (from Spanish and/or English)
 - Deal with numbers like 22, 34, 41, etc.
-- Include images for numbers like third, fourth, etc.
-- Improve the file system (sort the files, e.g. decide if using one or more files for the media)
+- Improve the file system (e.g. decide if using one or more files for the media)
 - Improve the images
-- Deal with missing images and words with different meanings
+- Deal with missing images (i.e. words without images)
+- Words with different meanings (i.e. same word and different images)
 - Think about including audio files (remember that other option is using a TTS engine in the computer)
 - Create / update the data set directly from changes in the decks (maybe using AnkiConnect add-on to generate the data set with code)
 - Use 'googlesheet4' or other packages/resources to automate translation and check the translation from different languages (e.g. https://www.brodrigues.co/blog/2020-12-05-poorman_translate/)
