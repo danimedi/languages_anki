@@ -14,7 +14,8 @@ word_list <- readLines(path("625_words", "original_list.txt"))
 img_data_set <- str_extract_all(dat$X1, "\\w+[.]jpg") %>% unlist() # image names from the data set
 img_names[!img_names %in% img_data_set]
 # images in the data set that are not in media
-img_data_set[!img_data_set %in% img_names]
+new_img_names <- paste0("vocab-", img_data_set)
+new_img_names[!new_img_names %in% img_names]
 
 # obtain the repeated words (same word, different meanings), contrast this with the original list
 freqs <- table(dat$X2)
