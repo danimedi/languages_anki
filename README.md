@@ -2,6 +2,10 @@
 
 This is a repo to create decks for languages using Anki.
 
+Information about this project can be found in this post on my web page:
+
+[**Creando mazo de Anki para vocabulario de un nuevo idioma**](https://danimedi.com/blog/creando-mazo-de-anki-para-vocabulario-de-un-nuevo-idioma/)
+
 ## Organization
 
 This repo currently contains 3 folders:
